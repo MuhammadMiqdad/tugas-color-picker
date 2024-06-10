@@ -38,7 +38,7 @@ def display_palette(colors):
 def color_to_hex(color):
     return '#{:02x}{:02x}{:02x}'.format(color[0], color[1], color[2])
 
-st.title('Dominant Color Palette Generator')
+st.title('Dominant Color Palette Generator edited Muhammad Miqdad')
 
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 if uploaded_file is not None:
